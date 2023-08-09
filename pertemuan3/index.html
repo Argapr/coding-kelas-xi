@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 3 | Arga Pratama</title>
+    <!-- link external -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- atribut internal -->
+    <style>
+        .internal{
+            color:rgb(237, 23, 94);
+        }
+        .internal img {
+            width: auto;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- inline -->
+    <div style="color: rgb(254, 11, 11);">
+        <h1>1. Inline CSS</h1>
+        <p>Tipe yang pertama adalah Inline CSS. Seperti namanya, kode CSS ini langsung ditempatkan di dalam baris kode HTML. Contohnya adalah seperti ini:</p>
+        <img src="image/inline.JPG" alt="" width="atau" height="100px">
+        <p>Jadi, kode HTML nya sendiri hanyalah penjelasan tentang heading. Namun, kode CSS dimasukkan untuk menambahkan style di sana, yaitu dengan menambahkan warna biru dan meratakan tulisan menjadi di tengah. </p>
+        <p>Yang terpenting dari Inline CSS adalah pengaruhnya. Style yang diberikan di sini spesifik hanya untuk heading, tidak untuk elemen HTML lainnya. </p>
+    </div>
+    <!-- tutup inline -->
+    <!-- internal -->
+    <div class="internal">
+        <h1 class="internal">2. External CSS</h1>
+        <p>Kalau Inline CSS hanya mempengaruhi satu baris, External CSS bisa mempengaruhi keseluruhan website. Tentunya hal ini dilakukan dengan mengubah file CSS, tanpa perlu menuliskan kode secara berulang.</p>
+        <p>Perlu diperhatikan, ciri khas dari External CSS adalah menggunakan tag <head>. Setelah itu, baru sisipkan file CSS sesuai kebutuhan. Contohnya seperti ini:</p>
+        <img src="image/external 1.JPG" alt="">
+        <p>“mystyle.css” adalah file CSS yang ingin Anda sisipkan. Nah, di dalam file tersebut, kurang lebih seperti ini gambarannya:</p>
+        <img src="image/external 2.JPG" alt="">
+    </div>
+    <!-- tutup internal -->
+    <!--- external --->
+    <div class="external">
+        <h1 class="external">3. Internal CSS</h1>
+        <p>Tipe yang terakhir adalah Internal CSS. Kurang lebih, tipe yang satu ini mirip dengan Inline CSS. Namun, kodenya tidak dituliskan di baris yang sama. </p>
+        <p>Contohnya adalah sebagai berikut:</p>
+        <img src="image/internal 1.JPG" alt="">
+        <p>Nah, itu dia kira-kira 3 Macam Style CSS yang wajib Anda ketahui. Dari penulisan kodenya, External CSS paling efektif untuk digunakan. Hal ini karena Anda hanya perlu mengganti file CSS saja, tanpa perlu menuliskan kode satu per satu. </p>
+        <h3>Cara Kerja CSS</h3>
+        <img src="image/internal 2.png" alt="">
+        <p>CSS bekerja ketika sebuah browser menampilkan dokumen, karenanya pada saat itu browser harus menggabungkan konten dokumen dengan gaya informasi atau gaya presentasi dalam halaman web.</p>
+        <p>Prosesnya terdapat beberapa langkah. Pertama, browser akan memuat file HTML dan CSS (jika kodenya ditulis sebagai external CSS). Setelah itu, browser akan mengubah keduanya menjadi Document Object Model (DOM). Ini adalah komponen yang mewakili file HTML dan CSS dalam memori perangkat pengunjung website.</p>
+        <p>Selanjutnya, setelah HTML dan CSS diubah menjadi DOM, browser akan melakukan rendering yaitu proses ketika browser menerapkan pengaturan di kode CSS pada elemen-elemen HTML. Akhirnya, hasilnya adalah tampilan halaman website yang ada di layar perangkat Anda.</p>
+    </div>
+    <!-- tutup external-->
+</body>
+</html>
