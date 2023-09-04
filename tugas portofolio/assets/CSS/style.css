@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    padding-top: 250px;
+}
+.project {
+    width: 100%;
+    height: 100vh;
+    padding-top: 250px;
+}
+.contact {
+    width: 100%;
+    height: 100vh;
+    padding-top: 250px;
+}
+/* dark mode */
+nav {
+    background-color: #22bbde8b;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #333;
+}
+.dark-mode .navbar-brand{
+    color: #333;
+}
+.dark-mode span {
+    color: #fff;
+}
+.dark-mode .kntk span {
+    background-color: #fff;
+}
+span {
+    color: #333;
+}
+
+.ctn {
+    border: 0;
+    background-color: #22bbde8b;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: 0.5s;
+    color: #fff;
+}
+.ctn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.cnt {
+    border: 0;
+    background-color: #22bbde8b;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.cnt:hover {
+    background-color: #333;
+}
+.cnt a{
+    color: #Fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.kntk {
+    display: flex;
+    margin-top: 30px;
+}
+.kntk span {
+    text-align: center;
+    margin: 20px;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50%;
+}
+.kntk span img {
+    align-items: center;
+    padding-top: 7px;
+}
+
+.very {
+    margin-right: 20px;
+    width: 2px;
+    height: 40px;
+    background-color: #Fff;
+}
+
+
+#toggle-btn {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+/* footer */
+footer {
+    background-color: #22bbde8b;
+    height: 50px;
+    text-align: center;
+}
+
+/* responsive */
+@media (max-width: 730px) {
+    .very {
+        width: 40px;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 10px;
+    } 
+}
